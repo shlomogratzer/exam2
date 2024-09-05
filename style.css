@@ -1,0 +1,110 @@
+*{
+    
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: silver;
+    font-family: sans-serif;
+}
+.container-fluid{
+    width:100%;
+    padding:0 16px;
+    
+}
+.sinup,.sinup a{
+    color: white;
+}
+.sinup2{
+    background-color: white;
+}
+.textcolor,.textcolor a{
+    color: white;
+}
+form{
+    background-color: #E6E6E6;
+}
+form div input{
+    width: 100%;
+    border-radius: 10px;
+    padding: 11px;
+}
+form  button{
+    margin: 8px;
+    padding: 8px;
+    
+    background-color:  #004D00;
+}
+button:hover{
+    background-color: blueviolet;
+}
+
+.container2{
+    padding: 8px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    min-height: 40px;
+    background-color: black;
+    color: white;
+}
+header{
+    background-color: #004D00;
+    text-align: center;
+}
+
+
+main{
+    padding: 8px;
+    min-height: 200px;
+    background-color: silver;
+    margin-bottom: 70px;
+}
+main > div{
+    background-color: white;
+}
+.container-main{
+    padding: 8px;
+    margin: 8px;
+    border-radius: 10px;
+    border: 2px solid gray;
+    
+}
+
+.second > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.options{
+    width: 500px;
+    padding: 8px;
+    margin-top: 8px;
+    border-radius: 10px;
+    border: 2px solid gray;
+    background-color: gray;
+    
+}
+.options:hover {
+    background-color: blue;
+}
+footer{
+    min-height: 60px;
+    background-color: #004D00;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+}
+footer > div{
+    padding: 16px;
+} 
+ul{
+    list-style: none;
+}
+.r{
+    flex-direction: start;
+}
